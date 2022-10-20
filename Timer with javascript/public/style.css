@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 10px;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 250px;
+  }
+
+  body {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background: var(--background);
+    color: var(--clr-light);
+  }
+  
+  :root {
+    --background: rgb(17, 60, 27);
+    --clr-light: #cdcdcd;
+    --background-light: rgb(45, 45, 45);
+    --br: 0.3em;
+  }  
